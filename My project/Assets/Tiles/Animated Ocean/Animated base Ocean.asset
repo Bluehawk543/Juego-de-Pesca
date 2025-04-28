@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: Animated base Ocean
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: -7415489082321939843, guid: 9fa96e501ab18db4ca90489646dc0260, type: 3}
+  - {fileID: 1489110622931662873, guid: ed3a888825200c94d8b51f621d0b3243, type: 3}
+  - {fileID: -5726039562547115292, guid: 5d0c242bac029b14e96ba8b54f1e8746, type: 3}
+  - {fileID: -8386207142182729264, guid: 415f8a0a02329d741abd8b5b5dc2aa01, type: 3}
+  - {fileID: -784108929084881249, guid: 2b079ea24cc189d46935b5bf1bf852a8, type: 3}
+  - {fileID: -6025428348350855075, guid: 2270cbe2a18e6994786dafa3df677774, type: 3}
+  - {fileID: 4125027110824326249, guid: 5472372088af14f41b8578d74512bee5, type: 3}
+  - {fileID: -1397506779538185182, guid: 606542624f8efb143afc2e45f2329ae4, type: 3}
+  - {fileID: -8655468768344122385, guid: 1a48de20fbdc14544b4bf0d3512dfcaa, type: 3}
+  - {fileID: 826538688472368003, guid: 8182b8dc963ab0c419599bff70bb6b22, type: 3}
+  - {fileID: 7875451300043712304, guid: 1b4f9a2d42a22c545a70b15fe39e04a9, type: 3}
+  - {fileID: -2082617888495357769, guid: 26f77b15f61c881489d8d1b636220fab, type: 3}
+  - {fileID: 1545141832605009942, guid: a745099f696979b4f9e9944dc7ad4c2f, type: 3}
+  - {fileID: -8379560338545669957, guid: e6fd77cdf8286d94da867f27dd51de6c, type: 3}
+  - {fileID: 3220724735727061418, guid: a0d2ecf302af6144e98e1d2e2663f000, type: 3}
+  m_MinSpeed: 5
+  m_MaxSpeed: 5
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
+  m_TileAnimationFlags: 0
