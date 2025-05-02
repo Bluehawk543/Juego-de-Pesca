@@ -14,11 +14,14 @@ public class PlayerMovement : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    private void OnMovement (InputValue value)
+    private void OnMovement(InputValue value)
     {
         movement = value.Get<Vector2>();
+    }
 
-        if (movement.x !=0 || movement.y !=0) // Para que el sprite sea el de la ultima tecla oprimida
+    private void Update()
+    {
+        if (movement.x != 0 || movement.y != 0)
         {
             animator.SetFloat("X", movement.x);
             animator.SetFloat("Y", movement.y);
